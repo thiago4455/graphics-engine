@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/phys_engine.dir/main.cpp.o CMakeFiles/phys_engine.dir/glad.c.o  -o phys_engine  /usr/lib/libglfw.so.3.3 -ldl 
