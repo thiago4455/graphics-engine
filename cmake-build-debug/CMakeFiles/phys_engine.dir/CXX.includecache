@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/glad.h
+khrplatform.h
+-
+
+../include/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/home/thiagomattos/src/phys-engine/main.cpp
+iostream
+-
+glad.h
+-
+GLFW/glfw3.h
+-
+
