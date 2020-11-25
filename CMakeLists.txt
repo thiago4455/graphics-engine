@@ -4,7 +4,7 @@ project(phys_engine)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(phys_engine main.cpp glad.c include/glad.h)
+add_executable(phys_engine src/main.cpp glad.c include/glad.h src/Shader.cpp src/Shader.h)
 
 find_package(glfw3 REQUIRED )
 find_package(OpenGL REQUIRED)
